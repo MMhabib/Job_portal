@@ -9,7 +9,7 @@ const useGetCompanies = () => {
         const fetchCompany = async () => {
             try {
                 axios.defaults.withCredentials = true;
-                const res = await axios.get("http://localhost:5000/api/v1/company/getcompany");
+                const res = await axios.get("https://job-portal-server-u5ru.onrender.com/api/v1/company/getcompany");
                 dispatch(setCompanies(res.data.companies));
             } catch (error) {
                 console.log(error);

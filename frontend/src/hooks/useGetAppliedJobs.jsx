@@ -9,7 +9,7 @@ const useGetAppliedJobs = () => {
         const fetchAppliedJobs = async () => {
             try {
                 axios.defaults.withCredentials = true;
-                const res = await axios.get('http://localhost:5000/api/v1/application/get');
+                const res = await axios.get('https://job-portal-server-u5ru.onrender.com/api/v1/application/get');
                 if (res.data.success) {
                     dispatch(setAllAppliedJobs(res.data.application))
                 }
