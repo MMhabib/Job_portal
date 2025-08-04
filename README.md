@@ -47,9 +47,9 @@ A modern full-stack job portal application built with React, Tailwind CSS, shadc
    npm install
    npm run dev
 
-Setup Backend:
+ 2. Setup Backend:
 
-```bash:
-cd backend
-npm install
+    ```bash:
+    cd backend
+    npm install
 
