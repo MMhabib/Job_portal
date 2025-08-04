@@ -30,7 +30,7 @@ const FilterCard = () => {
     }, [selectedValue])
 
     return (
-        <div className='w-full bg-white p-3 rounded-md'>
+        <div className='w-full bg-white p-3 rounded-md max-sm:hidden'>
             <div className='flex items-center justify-between'>
                 <h1 className='font-bold text-lg'>Filter Jobs</h1>
             </div>
