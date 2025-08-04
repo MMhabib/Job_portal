@@ -1,44 +1,55 @@
-# Job-Site
+# Job_portal
 
-A modern full-stack job portal built with React, Tailwind CSS, shadcn/ui on the frontend, and Express.js with MongoDB on the backend. This application allows employers to post jobs and job seekers to apply for them.
+A modern full-stack job portal application built with React, Tailwind CSS, shadcn/ui, and Express.js backend.
 
-## 🔗 Live Site
+## 🔗 Live Demo
 
-[🌐 Visit Live Site](https://job-portal-six-zeta-99.vercel.app/) 
+[🌐 Visit Live Site](https://job-portal-six-zeta-99.vercel.app/) <!-- Replace with actual URL -->
 
 ---
 
 ## 🚀 Features
 
-- 🔐 **Authentication** with JWT and cookies (login/signup)
-- 🧑‍💼 **Employer Panel** to create, update, and delete job posts
-- 👨‍💻 **Job Seeker Panel** to browse and apply for jobs
-- 🗂️ **Job Filtering** by type and category
-- 💻 **Responsive Design** using Tailwind CSS and shadcn/ui
-- ⚙️ **RESTful API** integration with full backend functionality
-- 📦 **MongoDB** for data storage (users, jobs, applications)
+- Role-based authentication using JWT
+- Recruiter panel: post, edit, delete job listings
+- Job seeker dashboard: browse, filter, and apply for jobs
+- Application management with status tracking
+- Responsive UI using Tailwind CSS and shadcn/ui
+- RESTful API endpoints supporting CRUD operations
+- Persistent data storage in MongoDB (or your chosen DB)
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Frontend
-- [React.js](https://reactjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [shadcn/ui](https://ui.shadcn.com/)
-- [Axios](https://axios-http.com/)
+- React.js
+- Tailwind CSS
+- shadcn/ui
+- Axios (for API calls)
 
 ### Backend
-- [Node.js](https://nodejs.org/)
-- [Express.js](https://expressjs.com/)
-- [MongoDB](https://www.mongodb.com/)
-- [Mongoose](https://mongoosejs.com/)
-- [JWT](https://jwt.io/)
-- [Cookie Parser](https://www.npmjs.com/package/cookie-parser)
-- [dotenv](https://www.npmjs.com/package/dotenv)
+- Node.js
+- Express.js
+- MongoDB (with Mongoose) or alternative
+- JSON Web Tokens (JWT)
+- dotenv (for environment management)
+- Cookie-parser or Helmet (as needed)
 
 ---
 
+## ⚙️ Setup & Local Development
 
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/MMhabib/Job_portal.git
+   cd Job_portal
+   npm install
+   npm run dev
 
+Setup Backend:
+
+```bash:
+cd backend
+npm install
 
