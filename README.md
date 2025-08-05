@@ -1,6 +1,6 @@
 # Job_portal
 
-A modern full-stack job portal application built with React, Tailwind CSS, shadcn/ui, and Express.js backend.
+A modern full-stack job portal built with React, Tailwind CSS, shadcn/ui on the frontend, and Express.js with MongoDB on the backend. This application allows employers to post jobs and job seekers to apply for them.
 
 ## 🔗 Live Demo
 
